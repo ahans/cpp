@@ -13,4 +13,3 @@ repos:
     hooks:
     -   id: clang-format
         exclude_types: [json]
-
