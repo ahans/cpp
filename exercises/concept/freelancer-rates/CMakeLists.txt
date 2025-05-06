@@ -1,5 +1,5 @@
 # Basic CMake project
-cmake_minimum_required(VERSION 3.5.1)
+cmake_minimum_required(VERSION 3.5.1...3.29.0)
 
 # Get the exercise name from the current directory
 get_filename_component(exercise ${CMAKE_CURRENT_SOURCE_DIR} NAME)
