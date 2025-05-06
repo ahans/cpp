@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5.1)
+cmake_minimum_required(VERSION 3.5.1...3.29.0)
 project(exercism CXX)
 
 function(build_fixup exercise_dir alt_exercise_root exercise_type example_name)
