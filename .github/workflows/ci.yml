@@ -17,7 +17,7 @@ jobs:
         compiler: [clang++-15, g++-12]
     steps:
     - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
-    - run: apt-get update && apt-get install libboost-date-time-dev
+    - run: sudo apt-get update && sudo apt-get install libboost-date-time-dev
     - name: Run tests with common Catch
       run: |
         cmake -G Ninja .
