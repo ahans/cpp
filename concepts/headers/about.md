@@ -49,8 +49,7 @@ One possible layout is to keep all the implementation details in the source file
 
 ```cpp
 // A file named robot_flower.h
-#if !defined(ROBOT_FLOWER_H)
-#define ROBOT_FLOWER_H
+#pragma once
 #include <string>
 namespace robots {
     class Flower {
